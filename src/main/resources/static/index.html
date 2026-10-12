@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="kk">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#0b5c85">
+  <meta name="color-scheme" content="light dark">
+  <title>Smart Service Hub</title>
+  <link rel="icon" type="image/svg+xml" href="/favicon.svg">
+  <link rel="stylesheet" href="/css/tokens.css">
+  <link rel="stylesheet" href="/css/app.css">
+</head>
+<body>
+  <div id="root"></div>
+  <div id="modal-root"></div>
+  <div id="toasts" class="toasts" role="status" aria-live="polite"></div>
+  <noscript><p style="padding:2rem;font-family:sans-serif">Smart Service Hub requires JavaScript.</p></noscript>
+
+  <script src="/js/i18n.js"></script>
+  <script src="/js/icons.js"></script>
+  <script src="/js/core.js"></script>
+  <script src="/js/ui.js"></script>
+  <script src="/js/pages-auth.js"></script>
+  <script src="/js/pages-client.js"></script>
+  <script src="/js/pages-orders.js"></script>
+  <script src="/js/pages-worker.js"></script>
+  <script src="/js/pages-admin.js"></script>
+  <script src="/js/pages-common.js"></script>
+  <script>boot();</script>
+</body>
+</html>

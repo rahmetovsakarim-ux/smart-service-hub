@@ -1,0 +1,40 @@
+# Build output
+target/
+dist/
+*.class
+*.jar
+*.war
+
+# IDE / OS
+.idea/
+*.iml
+.vscode/
+.settings/
+.classpath
+.project
+.DS_Store
+Thumbs.db
+
+# Logs and local databases
+*.log
+logs/
+*.mv.db
+*.trace.db
+*.lock.db
+.smart-service-hub/
+
+# Secrets and local configuration - never commit these
+.env
+.env.*
+!.env.example
+*.p12
+*.jks
+*.pem
+*.key
+application-local.properties
+application-secret*.properties
+
+# Temporary files
+*.tmp
+*.bak
+*.swp
